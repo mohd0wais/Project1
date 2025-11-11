@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/1200x/00/bc/e0/00bce0939f636f2927b42f74f38d896a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    background-color: white;
+    width: 50%;
+    height: 580px;
+    border: 1px solid white;
+    margin:130px auto;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    border-radius: 10px;
+}
+.container .para1{
+    border: 2px solid;
+    width: 45%;
+    height: 70%;
+    padding-top: 20px;
+    padding-left: 25px;
+    position: relative;
+    top: 85px;
+    right: 80px;
+    background-color: rgb(6, 63, 110);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px 1px rgb(6, 63, 110);
+    
+    
+
+}
+.container .para1 h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}   
+
+.container .para1 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-left: 5px;
+    margin: 18px;
+    color: lightgray;
+}
+i{
+    font-size: larger;
+    cursor: pointer;
+    
+}
+
+.container .para1 .logo{
+    position: relative;
+    width: 100%;
+    top: 50px;
+    left: 75px;
+    color: lightgray;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+
+.container .para2{
+    position: relative;
+    width: 40%;
+    height: 75%;
+    float: right;
+    bottom: 310px;
+    right: 90px;
+}
+
+.container .para2 h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(11, 69, 89);
+
+}
+.container .para2 p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.container .para2 input{
+    height: 40px;
+    background-color: rgb(245, 243, 243);
+    border: none;
+    display: block;
+    margin-bottom: 10px;
+    width: 93%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.container .para2 .last{
+    height: 85px;
+    
+}
+.container .para2 button{
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    text-decoration: none;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(49, 189, 236);
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px lightblue;
+}
